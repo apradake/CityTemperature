@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <script src="script.js"> </script>
+        <link rel="stylesheet" href="styling.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,600i,700i" rel="stylesheet">
+        <script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
+<link href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css" rel="stylesheet">
+        
+        
+        
+    </head>
+    <body>
+    <div class="container">
+            <div class="row">
+                <h1>Show Me Temperature   <ion-icon name="cloudy-night"></ion-icon></h1>
+            </div>
+            <div class="inputs">
+                Enter Your City Name: <input type="text" class="data-ip" id="inp" value="Nagpur"><br>
+                <br>
+                    <button type="submit" onclick="getTemp()"  class="clickEvent" >Show Temperature</button>
+                    <button type="reset" onclick="reset()"  class="clickEvent"  >Reset</button> 
+        </div>
+            <div id="showData"></div>
+            <div id="showImg"></div>
+    
+          
+           
+    </div>   
+    </body>
+
+</html>

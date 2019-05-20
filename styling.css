@@ -1,0 +1,95 @@
+.row
+{
+    font-family: 'Raleway', sans-serif;
+    max-height: 1200px;
+    align-content:center;
+    text-align: center;   
+    color: aliceblue;  
+}
+.row img 
+{
+      max-height: 800px;  
+}
+.row h1 
+{
+    font-size: 100px;
+    font-weight: 700;
+}
+h2
+{
+    font-size: 60px;
+    color: darkred;
+}
+.inputs
+{
+    text-align: center;
+    font-size: 40px;
+}
+.data-ip
+{
+    height: 35px;
+    width: 150px;
+    border-bottom-color: firebrick;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color:darkslategray;
+    
+}
+.clickEvent
+{
+ height: 35px;
+  width: 150px;
+    border-bottom-color: firebrick;
+    color: beige;
+    color: darkslategray;
+    background-color: deepskyblue;
+    border-bottom-color: firebrick;
+    border-bottom-width: thick;
+}
+
+.container
+{
+    background-image:url(new-bg.jpg);
+    width: 1650px;
+    height: 800px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color:azure;
+    align-content: center;
+    object-fit:contain;
+}
+#showData
+{
+    font-size: 50px;
+    color: azure;
+    text-align: center;
+}
+#showImg
+{   margin-top: 90px;
+    margin-bottom: 90px;
+    border-radius: 20px;
+}
+.summer
+{
+    background-image: url(beach-84533_640.jpg);
+    width: 300px;
+    height: 300px;
+    align-content: center;
+    float: none;;
+}
+.winter
+{
+    background-image: url(wintry-2068298_640.jpg);
+     width: 300px;
+    height: 300px;
+}
+.ic
+{
+    border-top: 50px;
+}
+
+
+
+
+
